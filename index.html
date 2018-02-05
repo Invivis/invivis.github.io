@@ -1,26 +1,47 @@
 <!DOCTYPE html>
 <html>
   <head>
-		<title>InviVis, Invincible Vis</title>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <!-- link to main stylesheet -->
- 		<link rel="stylesheet" type="text/css" href="/css/main.css">
-    <title></title>
+    <title>InviVis, Invincible Vis</title>
+    <script type="text/javascript">
+<!--
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+</script>
+	<style type="text/css">
+	.auto-style1 {
+		text-align: left;
+	}
+	</style>
   </head>
-  <body>
+  <body onload="FP_preloadImgs(/*url*/'file:///C:/Users/Admin/AppData/Local/Microsoft/Windows/INetCache/Microsoft Expression Web 4/button7.jpg',/*url*/'file:///C:/Users/Admin/AppData/Local/Microsoft/Windows/INetCache/Microsoft Expression Web 4/button8.jpg',/*url*/'file:///C:/Users/Admin/AppData/Local/Microsoft/Windows/INetCache/Microsoft Expression Web 4/buttonA.jpg',/*url*/'file:///C:/Users/Admin/AppData/Local/Microsoft/Windows/INetCache/Microsoft Expression Web 4/buttonB.jpg',/*url*/'file:///C:/Users/Admin/AppData/Local/Microsoft/Windows/INetCache/Microsoft Expression Web 4/button23.jpg',/*url*/'file:///C:/Users/Admin/AppData/Local/Microsoft/Windows/INetCache/Microsoft Expression Web 4/button24.jpg',/*url*/'file:///C:/Users/Admin/AppData/Local/Microsoft/Windows/INetCache/Microsoft Expression Web 4/button2F.jpg',/*url*/'file:///C:/Users/Admin/AppData/Local/Microsoft/Windows/INetCache/Microsoft Expression Web 4/button30.jpg')">
     <h1 style=" text-align: center;"><b>Welcome to the World of InviVis, <br>
       </b></h1>
     <h1 style=" text-align: center;"><b>The Invincible Vis</b></h1>
     <hr style="color: white; height: 0px;" role="application">
-    <div style="text-align: center;"><u><a href="https://invivis.github.io/">Home</a><a
-
-          href="https://invivis.github.io/about">&nbsp;&nbsp;&nbsp; About</a><a
-
-          href="https://invivis.github.io/cv">&nbsp;&nbsp;&nbsp; CV</a></u></div>
+    <div class="auto-style1"><a href="https://invivis.github.io/">
+		<img id="img1" alt="Home" fp-style="fp-btn: Braided Row 5" fp-title="Home" height="20" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'file:///C:/Users/Admin/AppData/Local/Microsoft/Windows/INetCache/Microsoft Expression Web 4/button8.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'file:///C:/Users/Admin/AppData/Local/Microsoft/Windows/INetCache/Microsoft Expression Web 4/button6.jpg')" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'file:///C:/Users/Admin/AppData/Local/Microsoft/Windows/INetCache/Microsoft Expression Web 4/button7.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'file:///C:/Users/Admin/AppData/Local/Microsoft/Windows/INetCache/Microsoft Expression Web 4/button7.jpg')" src="file:///C:/Users/Admin/AppData/Local/Microsoft/Windows/INetCache/Microsoft%20Expression%20Web%204/button6.jpg" style="border: 0" width="100"></a><a href="https://invivis.github.io/about"><img id="img2" alt="About" fp-style="fp-btn: Braided Row 5" fp-title="About" height="20" onmousedown="FP_swapImg(1,0,/*id*/'img2',/*url*/'file:///C:/Users/Admin/AppData/Local/Microsoft/Windows/INetCache/Microsoft Expression Web 4/buttonB.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img2',/*url*/'file:///C:/Users/Admin/AppData/Local/Microsoft/Windows/INetCache/Microsoft Expression Web 4/button9.jpg')" onmouseover="FP_swapImg(1,0,/*id*/'img2',/*url*/'file:///C:/Users/Admin/AppData/Local/Microsoft/Windows/INetCache/Microsoft Expression Web 4/buttonA.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img2',/*url*/'file:///C:/Users/Admin/AppData/Local/Microsoft/Windows/INetCache/Microsoft Expression Web 4/buttonA.jpg')" src="file:///C:/Users/Admin/AppData/Local/Microsoft/Windows/INetCache/Microsoft%20Expression%20Web%204/button9.jpg" style="border: 0" width="100"><a href="mailto:invivis@outlook.com"><img id="img3" alt="Contact" fp-style="fp-btn: Braided Row 5" fp-title="Contact" height="20" onmousedown="FP_swapImg(1,0,/*id*/'img3',/*url*/'file:///C:/Users/Admin/AppData/Local/Microsoft/Windows/INetCache/Microsoft Expression Web 4/button24.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img3',/*url*/'file:///C:/Users/Admin/AppData/Local/Microsoft/Windows/INetCache/Microsoft Expression Web 4/button22.jpg')" onmouseover="FP_swapImg(1,0,/*id*/'img3',/*url*/'file:///C:/Users/Admin/AppData/Local/Microsoft/Windows/INetCache/Microsoft Expression Web 4/button23.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img3',/*url*/'file:///C:/Users/Admin/AppData/Local/Microsoft/Windows/INetCache/Microsoft Expression Web 4/button23.jpg')" src="file:///C:/Users/Admin/AppData/Local/Microsoft/Windows/INetCache/Microsoft%20Expression%20Web%204/button22.jpg" style="border: 0" width="100"></a><a href="https://github.com/invivis"><img id="img4" alt="GitHub" fp-style="fp-btn: Braided Row 5" fp-title="GitHub" height="20" onmousedown="FP_swapImg(1,0,/*id*/'img4',/*url*/'file:///C:/Users/Admin/AppData/Local/Microsoft/Windows/INetCache/Microsoft Expression Web 4/button30.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img4',/*url*/'file:///C:/Users/Admin/AppData/Local/Microsoft/Windows/INetCache/Microsoft Expression Web 4/button2E.jpg')" onmouseover="FP_swapImg(1,0,/*id*/'img4',/*url*/'file:///C:/Users/Admin/AppData/Local/Microsoft/Windows/INetCache/Microsoft Expression Web 4/button2F.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img4',/*url*/'file:///C:/Users/Admin/AppData/Local/Microsoft/Windows/INetCache/Microsoft Expression Web 4/button2F.jpg')" src="file:///C:/Users/Admin/AppData/Local/Microsoft/Windows/INetCache/Microsoft%20Expression%20Web%204/button2E.jpg" style="border: 0" width="100"></a></a></div>
     <hr style="color: white; height: 0px;" role="application">
-    <hr style="color: white; height: 0px; margin-top: 16px;" role="application"><br>
-      <br>
-      <br>
+    <br>
     <p><br>
     </p>
     <p><br>
@@ -33,12 +54,6 @@
     </p>
     <p><br>
     </p>
-    <hr style="color: white; height: 0px; margin-top: 16px;" role="application">
-    <div style="text-align: center;"><u><a href="mailto:invivis@outlook.com">Contact</a><a
-
-          href="https://github.com/invivis">&nbsp;&nbsp;&nbsp;
-          &nbsp;&nbsp;&nbsp; GitHub</a></u></div>
-    <hr style="color: white; height: 0px; margin-top: 16px;" role="application">
-  </body>
+    <div style="text-align: center;">&nbsp;&nbsp;&nbsp; </div>
+    </body>
 </html>
-
